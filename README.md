@@ -1,7 +1,7 @@
 # Medical Image Analysis Mini-Project: Automatic Aortic Vessel Segmentation Model
 
 ## Overview
-This script is designed for processing and extracting data from the MM-WHS-2017 dataset, but we encourage trying other CT/CT-A datasets, specifically tailored for segmenting the ascending and descending aorta.
+This script is designed for processing and extracting data from the MM-WHS-2017 (https://zmiclab.github.io/zxh/0/mmwhs/data.html) dataset, but we encourage trying other CT/CT-A datasets, specifically tailored for segmenting the ascending and descending aorta.
 
 ## Prerequisites
 Before running this script, ensure you have the following dependencies installed:
