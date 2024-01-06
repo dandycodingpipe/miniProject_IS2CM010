@@ -1,7 +1,7 @@
 # Medical Image Analysis Mini-Project: Automatic Aortic Vessel Segmentation Model
 
 <img src="https://github.com/dandycodingpipe/miniProject_IS2CM010/assets/123328325/c1e9245a-ef3f-4b7b-8d1d-6d341877b045" width="400" height="400">
-<img src="https://github.com/dandycodingpipe/miniProject_IS2CM010/assets/123328325/114c2e58-9b21-4af0-9ea4-48b73048ffca" width="300" height="200">
+<img src="https://github.com/dandycodingpipe/miniProject_IS2CM010/assets/123328325/114c2e58-9b21-4af0-9ea4-48b73048ffca" width="400" height="400">
 
 ## Overview
 This script is designed for automatically processing and segmenting chest computed tomography (CT) data from the MM-WHS-2017 (https://zmiclab.github.io/zxh/0/mmwhs/data.html) dataset, but we encourage trying other CT/CT-A datasets, specifically tailored for segmenting the ascending and descending aorta. We combine quantile histogram thresholding with a recursive nearest centroid neighbor search (RNCNS) approach to track and create 3D masks of the ascending and descending aortas.
