@@ -49,6 +49,10 @@ The script also requires access to specific medical image files in NRRD (not cur
 ## Note on Performance
 The script’s performance and accuracy are dependent on the quality of the input images and the precision of the ground truths provided. Please ensure that the data is pre-processed as needed for optimal results.
 
+![image](https://github.com/dandycodingpipe/miniProject_IS2CM010/assets/123328325/e2d7b032-3de3-445a-81c0-a3dba2782665)
+
+This is an example of the performance output as a PNG for the first image in the dataset.
+
 ## Authors
 KAMOLE KHOMSI, Lloyd E.
 HERNANDEZ-FAJARDO, Christian A.
