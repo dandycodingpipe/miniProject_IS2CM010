@@ -1,5 +1,8 @@
 # Medical Image Analysis Mini-Project: Automatic Aortic Vessel Segmentation Model
 
+![My Image](Resolving aortic root.png)
+
+
 ## Overview
 This script is designed for processing and extracting data from the MM-WHS-2017 (https://zmiclab.github.io/zxh/0/mmwhs/data.html) dataset, but we encourage trying other CT/CT-A datasets, specifically tailored for segmenting the ascending and descending aorta.
 
@@ -21,9 +24,9 @@ The script also requires access to specific medical image files in NRRD (not cur
 1. **Modify File Paths**: Replace the `input_path` and `output_dir` variables with the correct path to your NIfTI files. The script currently uses the following placeholders:
    - NIfTI file: `"Project/Rider/R1 (AD)/R1.nii.gz"`
 
-2. **Use Aortic Ground Truths**: The script requires aortic ground truth images for accurate processing. These ground truths should be provided in your Git repository. Load them using the appropriate file paths.
+2. **Use Aortic Ground Truths**: The script requires aortic ground truth images for evaluation. These are available for download in the git. These ground truths were generated using TotalSegmentator.
 
-3. **Calling `fastASF` Functions**: The script utilizes several functions from the `fastASF` package for image processing:
+3. **The script utilizes several functions from the `fastASF` package for image processing:
    - `ImageProcessor`
    - `scoreDice`
    - `separate_anatomy`
@@ -32,7 +35,7 @@ The script also requires access to specific medical image files in NRRD (not cur
 
    Make sure the `fastASF` package is correctly installed and imported.
 
-4. **Running the Script**: Execute the script to process the images. The script performs the following key operations:
+4. **Running the Script**: 
    - Processes images using `ImageProcessor`.
    - Calculates and compares Dice scores.
    - Saves processed images and results in specified directories.
@@ -48,5 +51,5 @@ The script also requires access to specific medical image files in NRRD (not cur
 The script’s performance and accuracy are dependent on the quality of the input images and the precision of the ground truths provided. Please ensure that the data is pre-processed as needed for optimal results.
 
 ## Authors
-KAMOLE-KHOMSI, Lloyd E.
+KAMOLE KHOMSI, Lloyd E.
 HERNANDEZ-FAJARDO, Christian A.
