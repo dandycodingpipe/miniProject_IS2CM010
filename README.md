@@ -1,5 +1,7 @@
 # Medical Image Analysis Mini-Project: Automatic Aortic Vessel Segmentation Model
 
+Aortic diseases like aneuryms and aortic disections can both lead to the dilation of arterial vessels. These diseases increase the risk of developing cardiovascular complications such as hemmorage (internal bleeding), stroke, and heart attacks to populations like smokers and the elderly. Radiologists and surgeons need to survey the condition of organs such as the heart and its vessels to evaluate health risks and develop strategies for treating patients. Here we give a simple experimental procedure for segmenting the aorta on python for diameter measurements as well as a qualitative 
+
 <img src="https://github.com/dandycodingpipe/miniProject_IS2CM010/assets/123328325/c1e9245a-ef3f-4b7b-8d1d-6d341877b045" width="400" height="400">
 <img src="https://github.com/dandycodingpipe/miniProject_IS2CM010/assets/123328325/114c2e58-9b21-4af0-9ea4-48b73048ffca" width="400" height="400">
 
@@ -9,6 +11,7 @@ This script is designed for automatically processing and segmenting chest comput
 Our functions, testing script, and data analysis script are provided as is. No additional time was allocated to making it particularly easier on the end-reader other than what was necessary for our own understandinf of our implementation. This was due to time-constraints.
 
 <img src="https://github.com/dandycodingpipe/miniProject_IS2CM010/assets/123328325/14455c51-c23d-48af-a504-7212c8c4572f" width="400" height="450">
+(3D-mesh generation via ImageJ)
 
 ## Dependencies
 - `nibabel`
