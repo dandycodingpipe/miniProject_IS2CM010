@@ -6,6 +6,8 @@
 ## Overview
 This script is designed for automatically processing and segmenting chest computed tomography (CT) data from the MM-WHS-2017 (https://zmiclab.github.io/zxh/0/mmwhs/data.html) dataset, but we encourage trying other CT/CT-A datasets, specifically tailored for segmenting the ascending and descending aorta. We combine quantile histogram thresholding with a recursive nearest centroid neighbor search (RNCNS) approach to track and create 3D masks of the ascending and descending aortas.
 
+Our functions, testing script, and data analysis script are provided as is. No additional time was allocated to making it particularly easier on the end-reader other than what was necessary for our own understandinf of our implementation. This was due to time-constraints.
+
 <img src="https://github.com/dandycodingpipe/miniProject_IS2CM010/assets/123328325/14455c51-c23d-48af-a504-7212c8c4572f" width="400" height="450">
 
 ## Dependencies
